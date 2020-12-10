@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header{
+	background-color: black;
+}
+.navbar{
+	padding-left: 12px;
+}
+.navbar-custom{
+	background-color: black;
+}
+nav ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+.nav-link{
+	color: #adadad;
+}
+.active{
+	color: white;
+}
+nav a:hover{
+	color: #FFA100;
+}
+nav a:active{
+	color: purple;
+}
+main{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: #282828;
+}
+.description{
+	padding-top: 70px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 31px;
+	color: white;
+}
+.resume{
+	font-family: 'Roboto Mono', monospace;
+	color: #20D830;
+	line-height: 10px;
+}
+.head{
+	font-size: 20px;
+}
+.um{
+	margin: 0;
+}
+footer{
+	margin-top: 0;
+	background-color: black;
+	height: 140px;
+	text-align:center;
+}
+/*CSS for tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.8em;
+	}
+}
+/*CSS for smartphones*/
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
